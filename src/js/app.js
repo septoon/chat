@@ -1,3 +1,5 @@
+import Close from '../img/close.png'
+
 const btn = document.getElementById('btn');
 const wrapper = document.getElementById('main');
 btn.addEventListener('click', () => {
@@ -9,7 +11,7 @@ btn.addEventListener('click', () => {
 
   chat.innerHTML = `<div class="chat-header">
       <span class="title">Напишите нам</span>
-      <img src="./img/close.png" id="close" class="close" alt="close">
+      <img src="${Close}" id="close" class="close" alt="close">
     </div>
     <div class="form_holder">
       <form action="">
