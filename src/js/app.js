@@ -1,4 +1,4 @@
-import Close from '../img/close.png'
+import Close from '../img/close.png';
 
 const btn = document.getElementById('btn');
 const wrapper = document.getElementById('main');
